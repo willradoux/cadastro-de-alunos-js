@@ -1,7 +1,7 @@
 const alunos = [];
 
 function cadastrar(nome, idade) {
-    // Verifica se o aluno é maior de idade
+    // Verifica se o aluno listado é maior de idade
     const maiorIdade = idade >= 18;
 
     const aluno = {
@@ -9,7 +9,6 @@ function cadastrar(nome, idade) {
         idade: idade,
         maiorIdade: maiorIdade
     };
-
 
     alunos.push(aluno);
 }
@@ -25,7 +24,7 @@ function listarAlunos() {
 cadastrar("Willian", 19);
 cadastrar("Gabs", 21);
 cadastrar("Ygor", 19);
-cadastrar("João", 16)
+cadastrar("João", 16);
 listarAlunos();
 
 console.log
